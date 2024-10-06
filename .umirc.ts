@@ -7,6 +7,7 @@ export default defineConfig({
   ],
   npmClient: 'yarn',
   favicons: [
-    '/favicon.png',
-  ]
+    '/502/favicon.png',
+  ],
+  publicPath: '/502/'
 });
