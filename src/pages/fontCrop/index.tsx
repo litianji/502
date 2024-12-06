@@ -208,7 +208,7 @@ export default () => {
             <Space size={0}>
               <div>{readableFileSize(fontFile.size)} <ArrowRightOutlined /> {readableFileSize(minifyFont.size)}</div>
               <Divider type="vertical" />
-              <div>{((minifyFont.size / fontFile.size) * 100).toFixed(2)}</div>
+              <div>{((minifyFont.size / fontFile.size) * 100).toFixed(2)}%</div>
             </Space> :
             <Space><div>如果不在裁剪后的字体文件中，则会一行文字中出现不同字体</div></Space>
           }
